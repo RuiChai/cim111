@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+body{
+  font-family: sans-serif;
+background-color: pink;
+}
+
+h5 {text-decoration: none;
+color:black;
+}
+a{
+    text-decoration: none;
+    color: yellow;
+  }
+a:hover{
+  color: black
+}
+p{
+  line-height: 40px;
+  font-family: 'Inconsolata', monospace;
+}
+h1{
+  color:green;
+  font-family: sans-serif;
+}
+h3{color: red;
+font-family:'Inconsolata', monospace;}
+ol li a {text-decoration: none;
+    color: blue;
+    font-size: 40px;
+    font-weight: bold;
+}
+#centerText{
+    text-align: center;
+    color: gray;}
+#moveUp{margin-top: 60px;}
+.titles{font-weight: bold;
+        color: purple;}
+.hobby{  margin-bottom: 60px;
+            width: 400px;
+            height: 500px;
+            display: inline-block;
+            padding: 5px;
+            background-color: tomato;  }
+.greyOut{color: grey;}
