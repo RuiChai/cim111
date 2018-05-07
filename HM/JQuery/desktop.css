@@ -1,0 +1,64 @@
+.tab {
+    width: 1500px;
+    height: auto;
+    background-color: lightblue;
+    border: 1px solid;
+    margin: 50px;
+}
+.tabs {
+    width: auto;
+    height: auto;
+    float: left;
+    background-color: GRAY;
+    padding: 25px;
+    color: white;
+    font-family: sans-serif;
+}
+.cap {
+    width: 600px;
+    height: auto;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: white;
+}
+.clear {
+    clear: both;
+    float: none;
+}
+.box{
+  width: 100px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+h1{
+  font-family: sans-serif;
+  font-size: 40px;
+}
+p{
+  font-family: sans-serif;
+  font-size: 15px;
+}
+#hover {
+    margin-top: 0px;
+    width: 60px;
+    height: 50px;
+    font-family: sans-serif;
+    font-size: 30px;
+    background-color: YELLOW;
+    color: GREEN;
+    padding: 20px;
+  }
+#hover2{
+    margin-bottom: 0px;
+    width: 60px;
+    height: 50px;
+    font-family: sans-serif;
+    font-size: 30px;
+    background-color: YELLOW;
+    color: GREEN;
+    padding: 20px;
+  }
+  #hoverBox2{
+    margin-left: 100px;
+    margin-top:  20px;
+  }

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>How to cook the perfect steak</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+
+    <link rel="stylesheet" href="desktop.css">
+
+  </head>
+  <body>
+
+    <h1 id="title"> </h1>
+      <div class="tab" id="subTab1">
+          <div class="tabs" id="tab1">Step 1</div>
+          <div class="tabs" id="tab2">Step 2</div>
+          <div class="tabs" id="tab3">Step 3</div>
+          <div class="tabs" id="tab4">Step 4</div>
+          <div class="tabs" id="tab5">Step 5</div>
+
+          <div class="clear"></div>
+
+          <div class="captionSection" id="captionSection1">
+
+              <div class="cap" id="cap1">
+                <p>Step 1: Rub the steak all over with ingredients like olive oil, sea salt, and black pepper</p>
+                <img src="Images/steak1.jpg" width=500px>
+              </div>
+
+              <div id="hover">Tips</div>
+              <div id="hoverBox" class="box">
+                <p> The steak should not be refrigerated. </p>
+              </div>
+
+
+              <div class="cap" id="cap2">
+                <p>Step 2:Add the steak to a hot pan, then cook for 6 minutes for medium-rare. </p>
+                 <img src="Images/steak2.jpg" width=500px>
+              </div>
+
+
+              <div class="cap" id="cap3">
+                <p>Step 3:Rub the steak with a knob of butter- the sweetness from the butter will make it taste divine!</p>
+                 <img src="Images/steak3.jpg" width=500px> </div>
+
+              <div id="hover2">Tips</div>
+              <div id="hoverBox2" class="box">
+                <p> Halve a garlic clove and rub it over the steak every time you turn in. </p></div>
+
+
+              <div class="cap" id="cap4">
+                <p>Step 4: Creat a herb brush by tying woody herbs like thyme or rosemary to the handle of a wooden spoon and brush it over the steak every minute</p>
+                <img src="Images/steak4.jpg" width=500px>
+              </div>
+
+
+              <div class="cap" id="cap5">
+                <p>Step 5: Rest the steak on a plate that can collect all the lovely juices for 2 minutes</p>
+                 <img src="Images/steak5.jpg" width=500px> </div>
+          </div>
+         </div>
+
+
+  </body>
+
+
+      <script src="js/javascript.js"></script>
+
+      <script>
+          $(document).ready(function () {
+            $("#title").html("How to cook the perfect steak");
+            $("#title").css("color", "red");
+
+              $("#cap1").hide();
+              $("#hover").hide();
+              $("#hoverBox").hide();
+              $("#hover2").hide();
+              $("#hoverBox2").hide();
+              $("#cap2").hide();
+              $("#cap3").hide();
+              $("#cap4").hide();
+              $("#cap5").hide();
+              $("#tab1").click(function () {
+
+
+                  $("#cap1").show();
+                  $("#hover").show();
+                  $("#cap2").hide();
+                  $("#cap3").hide();
+                  $("#hover2").hide();
+                  $("#cap4").hide();
+                  $("#cap5").hide();
+              });
+              $("#hover")
+                  .mouseenter(function () {
+                      $("#hoverBox").show();
+                  })
+                  .mouseleave(function () {
+                      $("#hoverBox").hide();
+                  });
+              $("#tab2").click(function () {
+                $("#cap1").hide();
+                $("#cap2").show();
+                $("#hover").hide();
+                $("#cap3").hide();
+                $("#cap4").hide();
+                $("#cap5").hide();
+                $("#hover2").hide();
+                $("#hoverBox2").hide();
+              });
+               $("#tab3").click(function () {
+                  $("#cap1").hide();
+                  $("#cap2").hide();
+                  $("#hover").hide();
+                  $("#cap3").show();
+                  $("#hover2").show();
+                  $("#cap4").hide();
+                  $("#cap5").hide();
+              });
+              $("#hover2")
+                  .mouseenter(function () {
+                      $("#hoverBox2").show();
+                  })
+                  .mouseleave(function () {
+                      $("#hoverBox2").hide();
+                  });
+              $("#tab4").click(function () {
+                 $("#cap1").hide();
+                 $("#cap2").hide();
+                 $("#cap3").hide();
+                 $("#cap4").show();
+                 $("#cap5").hide();
+                 $("#hover2").hide();
+                 $("#hoverBox2").hide();
+             });
+             $("#tab5").click(function () {
+                $("#cap1").hide();
+                $("#cap2").hide();
+                $("#cap3").hide();
+                $("#cap4").hide();
+                $("#cap5").show();
+                $("#hover2").hide();
+                $("#hoverBox2").hide();
+            });
+          });
+
+</script>
+  </body>
+</html>
