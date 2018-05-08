@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+            <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+            <link rel="stylesheet" href="desktop.css">
+
+            <!-- jQuery -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
+
+            <!-- nanogallery2 -->
+            <link  href="https://unpkg.com/nanogallery2@2.1.0/dist/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
+            <script  type="text/javascript" src="https://unpkg.com/nanogallery2@2.1.0/dist/jquery.nanogallery2.min.js"></script>
+        </head>
+
+
+        <body>
+
+              <h1>Hong Kong</h1>
+
+              <p>Hong Kong, officially the Hong Kong Special Administrative Region of the People's Republic of China, is an autonomous territory on the eastern side of the Pearl River estuary in East Asia.
+
+
+
+              <!-- ### position of the gallery ### -->
+              <div id="nanogallery2">gallery_made_with_nanogallery2</div>
+
+<script>
+jQuery(document).ready(function () {
+jQuery("#nanogallery2").nanogallery2( {
+    <!-- ### gallery settings ### -->
+    thumbnailHeight:  300,
+   thumbnailWidth:   '600',
+    itemsBaseURL:     '',
+  thumbnailAlignment: 'center',
+  thumbnailLabel:     { position: 'OnBottom', hideIcons: true },
+    <!-- ### gallery content ### -->
+                        items: [
+                            { src: 'images/hk1.png', srct: 'images/hk1.png', title: 'Hong Kong Convention and Exhibition Center', description: 'text' },
+                            { src: 'images/hk2.png', srct: 'images/hk2.png', title: 'Hong Kong International Airport', description: 'text' },
+                            { src: 'images/hk3.png', srct: 'images/hk3.png', title: 'Tsing Ma Bridge', description: 'text' },
+                            { src: 'images/hk4.png', srct: 'images/hk4.png', title: 'nternational Finance Center Phase II', description: 'text' },
+                            { src: 'images/hk5.png', srct: 'images/hk5.png', title: 'Hong Kong Peninsula Hotel', description: 'text' },
+                          ]
+                      });
+                  });
+              </script>
+
+              <div>
+                  <div id="grid">
+
+                    <div>
+                      <nav>
+                        <ul>
+                        <li><a href="https://www.hkcec.com/"> Hong Kong Convention and Exhibition Center </a></li>
+                        <li><a href="https://www.hongkongairport.com/">Hong Kong International Airport</a></li>
+                        <li><a href="http://www.discoverhongkong.com/us/see-do/culture-heritage/modern-architecture/tsing-ma-bridge.jsp">Tsing Ma Bridge</a></li>
+                        <li><a href="http://www.skyscrapercenter.com/building/two-international-finance-centre/205">International Finance Center Phase II</a></li>
+                        <li><a href="http://hongkong.peninsula.com/en/special-offers/suite-experience?gclid=CjwKCAjw8r_XBRBkEiwAjWGLlLKEeuST02TLlshci2ueznnLCyzo9J60GnLceku02KXe49bHyPvxghoCaSQQAvD_BwE&gclsrc=aw.ds">Hong Kong Peninsula Hotel</a></li>
+                      </ul>
+                      </nav>
+                    </div>
+
+
+                    </div>
+              </div>
+<style>
+              body{
+                font-family: 'Quicksand', arial;
+              }
+
+              h1{
+                text-align: center;
+                font-size: 130px;
+                font-family: 'Lobster', cursive;
+                margin: 0px;
+                padding: 0px;
+              }
+
+              p{
+                font-size: 25px;
+                text-align: center;
+                width: 900px;
+                margin: 0 auto;
+                margin-top: 55px;
+                margin-bottom: 75px;
+              }
+
+
+
+              nav{
+                font-size: 30px;
+                margin: 0 auto;
+                text-align: center;
+              }
+
+              ul {
+                  list-style-type: none;
+                  padding: 0;
+                  width: 600px;
+                  background-color: black;
+                  margin: 0 auto;
+                  margin-top: 40px;
+                  margin-bottom: 40px;
+text-align: center;
+              }
+
+              li a {
+                  display: block;
+                  color: lightblue;
+                  padding: 8px 16px;
+                  text-decoration: none;
+                  text-align: center;
+              }
+
+              li a.active {
+                  background-color: grey;
+                  color: white;
+
+              }
+
+              li a:hover:not(.active) {
+                  background-color:lightgreen;
+                  color: white;
+              }
+
+              #grid{
+                justify-content: center;
+                display: grid;
+                grid-template-rows: 300px;
+                grid-template-columns: 605px 605px;
+                background-color: white;
+                padding: 0px;
+                margin: 0px;
+                text-align: center;
+              }
+              </style>
+
+
+
+            </body>
+</html>

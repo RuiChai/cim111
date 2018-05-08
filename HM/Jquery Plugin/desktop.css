@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+body{
+  font-family: 'Quicksand', arial;
+}
+
+.h1{
+  text-align: center;
+  font-size: 130px;
+  font-family: 'Lobster', cursive;
+  margin: 0px;
+  padding: 0px;
+}
+
+.p{
+  font-size: 25px;
+  text-align: center;
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 55px;
+  margin-bottom: 75px;
+}
+
+
+
+.nav{
+  font-size: 30px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.ul {
+    list-style-type: none;
+    padding: 0;
+    width: 600px;
+    background-color: #f1f1f1;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.li a {
+    display: block;
+    color: lightblue;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.li a.active {
+    background-color: lightgrey;
+    color: white;
+}
+
+.li a:hover:not(.active) {
+    background-color:lightgreen;
+    color: white;
+}
+
+#grid{
+  justify-content: center;
+  display: grid;
+  grid-template-rows: 300px;
+  grid-template-columns: 605px 605px;
+  background-color: white;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
